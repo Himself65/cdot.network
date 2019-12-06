@@ -357,7 +357,7 @@ and limitations under the License.
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/object.js because of ./src/views/Home/index.tsx */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/properties.js because of ./src/components/IntroduceCard/index.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/properties.js because of ./src/components/ArticleCard/index.tsx */
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/rtl.js because of ./src/components/ArticleCard/index.tsx */
 
