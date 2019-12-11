@@ -16,7 +16,7 @@
 
 /*! exports provided: __extends, __assign, __rest, __decorate, __param, __metadata, __awaiter, __generator, __exportStar, __values, __read, __spread, __spreadArrays, __await, __asyncGenerator, __asyncDelegator, __asyncValues, __makeTemplateObject, __importStar, __importDefault */
 
-/*! exports used: __assign, __decorate, __extends, __rest */
+/*! exports used: __assign, __extends, __rest */
 
 /*! *****************************************************************************
 Copyright (c) Microsoft Corporation. All rights reserved.
@@ -34,44 +34,46 @@ and limitations under the License.
 ***************************************************************************** */
 
 /*!******************************************************************!*\
-  !*** ./node_modules/@uifabric/styling/lib/index.js + 34 modules ***!
+  !*** ./node_modules/@uifabric/styling/lib/index.js + 28 modules ***!
   \******************************************************************/
 
 /*! exports provided: AnimationClassNames, FontClassNames, ColorClassNames, AnimationStyles, AnimationVariables, DefaultPalette, DefaultEffects, DefaultFontStyles, registerDefaultFontFaces, FontSizes, FontWeights, IconFontSizes, createFontStyles, hiddenContentStyle, PulsingBeaconAnimationStyles, getGlobalClassNames, ThemeSettingName, getTheme, loadTheme, createTheme, registerOnThemeChangeCallback, removeOnThemeChangeCallback, buildClassMap, getIcon, registerIcons, registerIconAlias, unregisterIcons, setIconOptions, getIconClassName, InjectionMode, Stylesheet, concatStyleSets, concatStyleSetsWithProps, fontFace, keyframes, mergeStyleSets, mergeStyles, getFocusStyle, focusClear, getFocusOutlineStyle, getThemedContext, HighContrastSelector, HighContrastSelectorWhite, HighContrastSelectorBlack, ScreenWidthMinSmall, ScreenWidthMinMedium, ScreenWidthMinLarge, ScreenWidthMinXLarge, ScreenWidthMinXXLarge, ScreenWidthMinXXXLarge, ScreenWidthMaxSmall, ScreenWidthMaxMedium, ScreenWidthMaxLarge, ScreenWidthMaxXLarge, ScreenWidthMaxXXLarge, ScreenWidthMinUhfMobile, getScreenSelector, normalize, noWrap, getFadedOverflowStyle, getPlaceholderStyles, ZIndexes */
 
-/*! exports used: AnimationClassNames, FontWeights, HighContrastSelector, IconFontSizes, ScreenWidthMaxMedium, ZIndexes, concatStyleSets, focusClear, getFocusStyle, getGlobalClassNames, getIcon, getScreenSelector, hiddenContentStyle, mergeStyleSets, mergeStyles, registerIconAlias, registerIcons */
+/*! exports used: concatStyleSets, mergeStyles, registerIconAlias, registerIcons */
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@microsoft/load-themed-styles/lib/index.js (<- Module is not an ECMAScript module) */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/merge-styles/lib/StyleOptionsState.js because of ./src/components/ArticleCard/index.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/merge-styles/lib/Stylesheet.js because of ./src/index.tsx */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/merge-styles/lib/Stylesheet.js because of ./src/components/ArticleCard/index.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/merge-styles/lib/concatStyleSets.js because of ./src/index.tsx */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/merge-styles/lib/concatStyleSets.js because of ./src/components/ArticleCard/index.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/merge-styles/lib/fontFace.js because of ./src/index.tsx */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/merge-styles/lib/mergeStyleSets.js because of ./src/components/ArticleCard/index.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/merge-styles/lib/keyframes.js because of ./src/index.tsx */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/merge-styles/lib/mergeStyles.js because of ./src/views/Home/index.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/merge-styles/lib/mergeStyles.js because of ./src/index.tsx */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/merge-styles/lib/styleToClassName.js because of ./src/components/ArticleCard/index.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/set-version/lib/index.js because of ./node_modules/office-ui-fabric-react/lib/version.js */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/set-version/lib/index.js because of ./src/App.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/GlobalSettings.js because of ./src/components/FootBar/index.tsx */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/GlobalSettings.js because of ./src/views/Home/index.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/customizations/Customizations.js because of ./src/components/FootBar/index.tsx */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/customizations/Customizations.js because of ./src/views/Home/index.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/customizations/mergeSettings.js because of ./src/views/Home/index.tsx */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/dom/getDocument.js because of ./src/views/Home/index.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/dom/getWindow.js because of ./src/components/FootBar/index.tsx */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/dom/getWindow.js because of ./src/views/Home/index.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/initializeFocusRects.js because of ./src/index.tsx */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/initializeFocusRects.js because of ./src/views/Home/index.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/language.js because of ./src/index.tsx */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/memoize.js because of ./src/views/Home/index.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/memoize.js because of ./src/index.tsx */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/warn/warn.js because of ./src/views/Home/index.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/merge.js because of ./src/index.tsx */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/tslib/tslib.es6.js because of ./src/components/ArticleCard/index.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/warn/warn.js because of ./src/components/Header/index.tsx */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/tslib/tslib.es6.js because of ./src/index.tsx */
 
 /*!******************************************!*\
   !*** ./node_modules/prop-types/index.js ***!
@@ -80,24 +82,6 @@ and limitations under the License.
 /*! exports used: default */
 
 /*! ./factoryWithThrowingShims */
-
-/*!*********************************************************************************!*\
-  !*** ./node_modules/office-ui-fabric-react/lib/components/Image/Image.types.js ***!
-  \*********************************************************************************/
-
-/*! exports provided: ImageFit, ImageCoverStyle, ImageLoadState */
-
-/*! exports used: ImageCoverStyle, ImageFit, ImageLoadState */
-
-/*!***************************************************************!*\
-  !*** ./node_modules/@uifabric/utilities/lib/dom/getWindow.js ***!
-  \***************************************************************/
-
-/*! exports provided: getWindow */
-
-/*! exports used: getWindow */
-
-/*! ./setSSR */
 
 /*!************************************************************!*\
   !*** ./node_modules/@babel/runtime/helpers/esm/extends.js ***!
@@ -113,6 +97,10 @@ and limitations under the License.
 
 /*! exports used: KeyCodes */
 
+/*!****************************************************************!*\
+  !*** ./node_modules/tiny-invariant/dist/tiny-invariant.esm.js ***!
+  \****************************************************************/
+
 /*!***************************************************************!*\
   !*** ./node_modules/@uifabric/merge-styles/lib/Stylesheet.js ***!
   \***************************************************************/
@@ -122,18 +110,6 @@ and limitations under the License.
 /*! exports used: Stylesheet */
 
 /*! tslib */
-
-/*!****************************************************************!*\
-  !*** ./node_modules/tiny-invariant/dist/tiny-invariant.esm.js ***!
-  \****************************************************************/
-
-/*!*****************************************************************!*\
-  !*** ./node_modules/@uifabric/utilities/lib/dom/getDocument.js ***!
-  \*****************************************************************/
-
-/*! exports provided: getDocument */
-
-/*! exports used: getDocument */
 
 /*!*********************************************************!*\
   !*** ./node_modules/history/esm/history.js + 2 modules ***!
@@ -146,6 +122,16 @@ and limitations under the License.
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/extends.js because of ./src/App.tsx */
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/tiny-invariant/dist/tiny-invariant.esm.js because of ./src/App.tsx */
+
+/*!***************************************************************!*\
+  !*** ./node_modules/@uifabric/utilities/lib/dom/getWindow.js ***!
+  \***************************************************************/
+
+/*! exports provided: getWindow */
+
+/*! exports used: getWindow */
+
+/*! ./setSSR */
 
 /*!*******************************************************************!*\
   !*** ./node_modules/react-router/esm/react-router.js + 1 modules ***!
@@ -185,7 +171,13 @@ and limitations under the License.
 
 /*! exports used: applyRegistration, serializeRuleEntries, styleToClassName, styleToRegistration */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/merge-styles/lib/Stylesheet.js because of ./src/App.tsx */
+/*!**********************************************************************!*\
+  !*** ./node_modules/@uifabric/merge-styles/lib/StyleOptionsState.js ***!
+  \**********************************************************************/
+
+/*! exports provided: setRTL, getRTL, getStyleOptions */
+
+/*! exports used: getStyleOptions, setRTL */
 
 /*!*******************************************************************************!*\
   !*** ./node_modules/@uifabric/utilities/lib/customizations/Customizations.js ***!
@@ -197,37 +189,25 @@ and limitations under the License.
 
 /*! ../GlobalSettings */
 
-/*!**********************************************************************!*\
-  !*** ./node_modules/@uifabric/merge-styles/lib/StyleOptionsState.js ***!
-  \**********************************************************************/
-
-/*! exports provided: setRTL, getRTL, getStyleOptions */
-
-/*! exports used: getStyleOptions, setRTL */
-
 /*!*********************************************************************************!*\
   !*** ./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js ***!
   \*********************************************************************************/
 
-/*!*****************************************************!*\
-  !*** ./node_modules/@hot-loader/react-dom/index.js ***!
-  \*****************************************************/
+/*!*********************************************************************!*\
+  !*** ./node_modules/@uifabric/set-version/lib/index.js + 1 modules ***!
+  \*********************************************************************/
 
-/*! exports used: createPortal, default, findDOMNode */
+/*! exports provided: setVersion */
 
-/*! ./cjs/react-dom.production.min.js */
+/*! exports used: setVersion */
 
-/*!***********************************!*\
-  !*** (webpack)/buildin/global.js ***!
-  \***********************************/
+/*!*****************************************************************!*\
+  !*** ./node_modules/@uifabric/utilities/lib/dom/getDocument.js ***!
+  \*****************************************************************/
 
-/*!********************************************************************!*\
-  !*** ./node_modules/@uifabric/merge-styles/lib/concatStyleSets.js ***!
-  \********************************************************************/
+/*! exports provided: getDocument */
 
-/*! exports provided: concatStyleSets */
-
-/*! exports used: concatStyleSets */
+/*! exports used: getDocument */
 
 /*!**********************************************************************************!*\
   !*** ./node_modules/@uifabric/utilities/lib/customizations/CustomizerContext.js ***!
@@ -238,6 +218,10 @@ and limitations under the License.
 /*! exports used: CustomizerContext */
 
 /*! react */
+
+/*!***********************************!*\
+  !*** (webpack)/buildin/global.js ***!
+  \***********************************/
 
 /*!************************************************************!*\
   !*** ./node_modules/@uifabric/foundation/lib/utilities.js ***!
@@ -259,23 +243,13 @@ and limitations under the License.
 
 /*! prop-types */
 
-/*!***********************************************************!*\
-  !*** ./node_modules/@uifabric/utilities/lib/warn/warn.js ***!
-  \***********************************************************/
+/*!********************************************************************!*\
+  !*** ./node_modules/@uifabric/merge-styles/lib/concatStyleSets.js ***!
+  \********************************************************************/
 
-/*! exports provided: warn, setWarningCallback */
+/*! exports provided: concatStyleSets */
 
-/*! exports used: warn */
-
-/*!*******************************************************!*\
-  !*** ./node_modules/@uifabric/utilities/lib/getId.js ***!
-  \*******************************************************/
-
-/*! exports provided: getId, resetIds */
-
-/*! exports used: getId, resetIds */
-
-/*! ./dom/getWindow */
+/*! exports used: concatStyleSets */
 
 /*!**********************************************************************!*\
   !*** ./node_modules/@uifabric/merge-styles/lib/extractStyleParts.js ***!
@@ -295,99 +269,13 @@ and limitations under the License.
 
 /*! exports used: _isSSR */
 
-/*!********************************************************!*\
-  !*** ./node_modules/@uifabric/utilities/lib/object.js ***!
-  \********************************************************/
+/*!*****************************************************************!*\
+  !*** ./node_modules/@microsoft/load-themed-styles/lib/index.js ***!
+  \*****************************************************************/
 
-/*! exports provided: getId, resetIds, shallowCompare, assign, filteredAssign, mapEnumByName, values */
+/*! exports used: loadTheme */
 
-/*! exports used: assign, filteredAssign, shallowCompare */
-
-/*! @uifabric/merge-styles */
-
-/*! ./getId */
-
-/*!****************************************************************************************!*\
-  !*** ./node_modules/office-ui-fabric-react/lib/components/Button/BaseButton.styles.js ***!
-  \****************************************************************************************/
-
-/*! exports provided: getStyles */
-
-/*! exports used: getStyles */
-
-/*! ../../Utilities */
-
-/*! ../../Styling */
-
-/*!**********************************************************************************************!*\
-  !*** ./node_modules/office-ui-fabric-react/lib/components/Button/BaseButton.js + 67 modules ***!
-  \**********************************************************************************************/
-
-/*! exports provided: BaseButton */
-
-/*! exports used: BaseButton */
-
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@hot-loader/react-dom/index.js (<- Module is not an ECMAScript module) */
-
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/merge-styles/lib/mergeStyles.js because of ./src/App.tsx */
-
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/styling/lib/index.js because of ./src/App.tsx */
-
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/Async.js because of ./src/views/Home/index.tsx */
-
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/BaseComponent.js because of ./src/views/Home/index.tsx */
-
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/EventGroup.js because of ./src/views/Home/index.tsx */
-
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/KeyCodes.js because of ./src/views/Home/index.tsx */
-
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/classNamesFunction.js because of ./src/components/ArticleCard/index.tsx */
-
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/customizations/customizable.js because of ./src/views/Home/index.tsx */
-
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/dom/getDocument.js because of ./src/App.tsx */
-
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/dom/on.js because of ./src/views/Home/index.tsx */
-
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/getId.js because of ./src/views/Home/index.tsx */
-
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/hoistStatics.js because of ./src/views/Home/index.tsx */
-
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/memoize.js because of ./src/App.tsx */
-
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/object.js because of ./src/views/Home/index.tsx */
-
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/properties.js because of ./src/components/ArticleCard/index.tsx */
-
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/rtl.js because of ./src/components/ArticleCard/index.tsx */
-
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/styled.js because of ./src/views/Home/index.tsx */
-
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/lib/components/Fabric/Fabric.js because of ./src/views/Home/index.tsx */
-
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/lib/components/Image/Image.js because of ./src/components/FootBar/index.tsx */
-
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/lib/components/Image/Image.types.js because of ./src/components/FootBar/index.tsx */
-
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/tslib/tslib.es6.js because of ./src/App.tsx */
-
-/*!***************************************************************************************!*\
-  !*** ./node_modules/office-ui-fabric-react/lib/components/Image/Image.js + 2 modules ***!
-  \***************************************************************************************/
-
-/*! exports provided: Image */
-
-/*! exports used: Image */
-
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/lib/components/Image/Image.types.js because of ./src/views/Home/index.tsx */
-
-/*!*********************************************************************!*\
-  !*** ./node_modules/@uifabric/set-version/lib/index.js + 1 modules ***!
-  \*********************************************************************/
-
-/*! exports provided: setVersion */
-
-/*! exports used: setVersion */
+/*! ./../../../webpack/buildin/global.js */
 
 /*!*********************************************************************!*\
   !*** ./node_modules/@fortawesome/free-brands-svg-icons/index.es.js ***!
@@ -396,6 +284,14 @@ and limitations under the License.
 /*! exports provided: fab, prefix, fa500px, faAccessibleIcon, faAccusoft, faAcquisitionsIncorporated, faAdn, faAdobe, faAdversal, faAffiliatetheme, faAirbnb, faAlgolia, faAlipay, faAmazon, faAmazonPay, faAmilia, faAndroid, faAngellist, faAngrycreative, faAngular, faAppStore, faAppStoreIos, faApper, faApple, faApplePay, faArtstation, faAsymmetrik, faAtlassian, faAudible, faAutoprefixer, faAvianex, faAviato, faAws, faBandcamp, faBattleNet, faBehance, faBehanceSquare, faBimobject, faBitbucket, faBitcoin, faBity, faBlackTie, faBlackberry, faBlogger, faBloggerB, faBluetooth, faBluetoothB, faBootstrap, faBtc, faBuffer, faBuromobelexperte, faBuyNLarge, faBuysellads, faCanadianMapleLeaf, faCcAmazonPay, faCcAmex, faCcApplePay, faCcDinersClub, faCcDiscover, faCcJcb, faCcMastercard, faCcPaypal, faCcStripe, faCcVisa, faCentercode, faCentos, faChrome, faChromecast, faCloudscale, faCloudsmith, faCloudversify, faCodepen, faCodiepie, faConfluence, faConnectdevelop, faContao, faCottonBureau, faCpanel, faCreativeCommons, faCreativeCommonsBy, faCreativeCommonsNc, faCreativeCommonsNcEu, faCreativeCommonsNcJp, faCreativeCommonsNd, faCreativeCommonsPd, faCreativeCommonsPdAlt, faCreativeCommonsRemix, faCreativeCommonsSa, faCreativeCommonsSampling, faCreativeCommonsSamplingPlus, faCreativeCommonsShare, faCreativeCommonsZero, faCriticalRole, faCss3, faCss3Alt, faCuttlefish, faDAndD, faDAndDBeyond, faDashcube, faDelicious, faDeploydog, faDeskpro, faDev, faDeviantart, faDhl, faDiaspora, faDigg, faDigitalOcean, faDiscord, faDiscourse, faDochub, faDocker, faDraft2digital, faDribbble, faDribbbleSquare, faDropbox, faDrupal, faDyalog, faEarlybirds, faEbay, faEdge, faElementor, faEllo, faEmber, faEmpire, faEnvira, faErlang, faEthereum, faEtsy, faEvernote, faExpeditedssl, faFacebook, faFacebookF, faFacebookMessenger, faFacebookSquare, faFantasyFlightGames, faFedex, faFedora, faFigma, faFirefox, faFirstOrder, faFirstOrderAlt, faFirstdraft, faFlickr, faFlipboard, faFly, faFontAwesome, faFontAwesomeAlt, faFontAwesomeFlag, faFontAwesomeLogoFull, faFonticons, faFonticonsFi, faFortAwesome, faFortAwesomeAlt, faForumbee, faFoursquare, faFreeCodeCamp, faFreebsd, faFulcrum, faGalacticRepublic, faGalacticSenate, faGetPocket, faGg, faGgCircle, faGit, faGitAlt, faGitSquare, faGithub, faGithubAlt, faGithubSquare, faGitkraken, faGitlab, faGitter, faGlide, faGlideG, faGofore, faGoodreads, faGoodreadsG, faGoogle, faGoogleDrive, faGooglePlay, faGooglePlus, faGooglePlusG, faGooglePlusSquare, faGoogleWallet, faGratipay, faGrav, faGripfire, faGrunt, faGulp, faHackerNews, faHackerNewsSquare, faHackerrank, faHips, faHireAHelper, faHooli, faHornbill, faHotjar, faHouzz, faHtml5, faHubspot, faImdb, faInstagram, faIntercom, faInternetExplorer, faInvision, faIoxhost, faItchIo, faItunes, faItunesNote, faJava, faJediOrder, faJenkins, faJira, faJoget, faJoomla, faJs, faJsSquare, faJsfiddle, faKaggle, faKeybase, faKeycdn, faKickstarter, faKickstarterK, faKorvue, faLaravel, faLastfm, faLastfmSquare, faLeanpub, faLess, faLine, faLinkedin, faLinkedinIn, faLinode, faLinux, faLyft, faMagento, faMailchimp, faMandalorian, faMarkdown, faMastodon, faMaxcdn, faMdb, faMedapps, faMedium, faMediumM, faMedrt, faMeetup, faMegaport, faMendeley, faMicrosoft, faMix, faMixcloud, faMizuni, faModx, faMonero, faNapster, faNeos, faNimblr, faNode, faNodeJs, faNpm, faNs8, faNutritionix, faOdnoklassniki, faOdnoklassnikiSquare, faOldRepublic, faOpencart, faOpenid, faOpera, faOptinMonster, faOrcid, faOsi, faPage4, faPagelines, faPalfed, faPatreon, faPaypal, faPennyArcade, faPeriscope, faPhabricator, faPhoenixFramework, faPhoenixSquadron, faPhp, faPiedPiper, faPiedPiperAlt, faPiedPiperHat, faPiedPiperPp, faPinterest, faPinterestP, faPinterestSquare, faPlaystation, faProductHunt, faPushed, faPython, faQq, faQuinscape, faQuora, faRProject, faRaspberryPi, faRavelry, faReact, faReacteurope, faReadme, faRebel, faRedRiver, faReddit, faRedditAlien, faRedditSquare, faRedhat, faRenren, faReplyd, faResearchgate, faResolving, faRev, faRocketchat, faRockrms, faSafari, faSalesforce, faSass, faSchlix, faScribd, faSearchengin, faSellcast, faSellsy, faServicestack, faShirtsinbulk, faShopware, faSimplybuilt, faSistrix, faSith, faSketch, faSkyatlas, faSkype, faSlack, faSlackHash, faSlideshare, faSnapchat, faSnapchatGhost, faSnapchatSquare, faSoundcloud, faSourcetree, faSpeakap, faSpeakerDeck, faSpotify, faSquarespace, faStackExchange, faStackOverflow, faStackpath, faStaylinked, faSteam, faSteamSquare, faSteamSymbol, faStickerMule, faStrava, faStripe, faStripeS, faStudiovinari, faStumbleupon, faStumbleuponCircle, faSuperpowers, faSupple, faSuse, faSwift, faSymfony, faTeamspeak, faTelegram, faTelegramPlane, faTencentWeibo, faTheRedYeti, faThemeco, faThemeisle, faThinkPeaks, faTradeFederation, faTrello, faTripadvisor, faTumblr, faTumblrSquare, faTwitch, faTwitter, faTwitterSquare, faTypo3, faUber, faUbuntu, faUikit, faUmbraco, faUniregistry, faUntappd, faUps, faUsb, faUsps, faUssunnah, faVaadin, faViacoin, faViadeo, faViadeoSquare, faViber, faVimeo, faVimeoSquare, faVimeoV, faVine, faVk, faVnv, faVuejs, faWaze, faWeebly, faWeibo, faWeixin, faWhatsapp, faWhatsappSquare, faWhmcs, faWikipediaW, faWindows, faWix, faWizardsOfTheCoast, faWolfPackBattalion, faWordpress, faWordpressSimple, faWpbeginner, faWpexplorer, faWpforms, faWpressr, faXbox, faXing, faXingSquare, faYCombinator, faYahoo, faYammer, faYandex, faYandexInternational, faYarn, faYelp, faYoast, faYoutube, faYoutubeSquare, faZhihu */
 
 /*! exports used: faGithub, faTwitter, faWeixin */
+
+/*!******************************************************************************!*\
+  !*** ./node_modules/@uifabric/utilities/lib/customizations/mergeSettings.js ***!
+  \******************************************************************************/
+
+/*! exports provided: mergeSettings, mergeScopedSettings */
+
+/*! exports used: mergeScopedSettings, mergeSettings */
 
 /*!********************************************************************!*\
   !*** ./node_modules/@fortawesome/fontawesome-svg-core/index.es.js ***!
@@ -441,6 +337,12 @@ object-assign
 
 /*! ./cjs/react-is.production.min.js */
 
+/*!*****************************************************!*\
+  !*** ./node_modules/@hot-loader/react-dom/index.js ***!
+  \*****************************************************/
+
+/*! ./cjs/react-dom.production.min.js */
+
 /*!****************************************************************!*\
   !*** ./node_modules/@uifabric/utilities/lib/GlobalSettings.js ***!
   \****************************************************************/
@@ -449,15 +351,7 @@ object-assign
 
 /*! exports used: GlobalSettings */
 
-/*!**********************************************************************!*\
-  !*** ./node_modules/@uifabric/utilities/lib/initializeFocusRects.js ***!
-  \**********************************************************************/
-
-/*! exports provided: IsFocusVisibleClassName, initializeFocusRects */
-
-/*! exports used: IsFocusVisibleClassName, initializeFocusRects */
-
-/*! ./keyboard */
+/*! ./dom/getWindow */
 
 /*!**********************************************************!*\
   !*** ./node_modules/@uifabric/utilities/lib/keyboard.js ***!
@@ -468,14 +362,6 @@ object-assign
 /*! exports used: isDirectionalKeyCode */
 
 /*! ./KeyCodes */
-
-/*!*****************************************************************!*\
-  !*** ./node_modules/@microsoft/load-themed-styles/lib/index.js ***!
-  \*****************************************************************/
-
-/*! exports used: loadTheme */
-
-/*! ./../../../webpack/buildin/global.js */
 
 /*!********************************************************!*\
   !*** ./node_modules/@uifabric/foundation/lib/slots.js ***!
@@ -490,40 +376,6 @@ object-assign
 /*! @uifabric/utilities */
 
 /*! ./utilities */
-
-/*!***********************************************************************!*\
-  !*** ./node_modules/@uifabric/utilities/lib/warn/warnDeprecations.js ***!
-  \***********************************************************************/
-
-/*! exports provided: warnDeprecations */
-
-/*! exports used: warnDeprecations */
-
-/*!*******************************************************!*\
-  !*** ./node_modules/@uifabric/utilities/lib/Async.js ***!
-  \*******************************************************/
-
-/*! exports provided: Async */
-
-/*! exports used: Async */
-
-/*!************************************************************!*\
-  !*** ./node_modules/@uifabric/utilities/lib/EventGroup.js ***!
-  \************************************************************/
-
-/*! exports provided: EventGroup */
-
-/*! exports used: EventGroup */
-
-/*! ./object */
-
-/*!**************************************************************!*\
-  !*** ./node_modules/@uifabric/utilities/lib/hoistStatics.js ***!
-  \**************************************************************/
-
-/*! exports provided: hoistStatics */
-
-/*! exports used: hoistStatics */
 
 /*!********************************************************************!*\
   !*** ./node_modules/@fortawesome/free-solid-svg-icons/index.es.js ***!
@@ -573,27 +425,7 @@ object-assign
 
 /*! exports used: initializeIcons */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/set-version/lib/index.js because of ./src/views/Home/index.tsx */
-
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/styling/lib/index.js because of ./src/views/Home/index.tsx */
-
-/*!*****************************************************************!*\
-  !*** ./node_modules/@uifabric/utilities/lib/rtl.js + 1 modules ***!
-  \*****************************************************************/
-
-/*! exports provided: getRTL, setRTL, getRTLSafeKeyCode */
-
-/*! exports used: getRTL */
-
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/merge-styles/lib/StyleOptionsState.js because of ./src/App.tsx */
-
-/*!*********************************************************!*\
-  !*** ./node_modules/@uifabric/utilities/lib/memoize.js ***!
-  \*********************************************************/
-
-/*! exports provided: setMemoizeWeakMap, resetMemoizations, memoize, memoizeFunction */
-
-/*! exports used: memoizeFunction */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/styling/lib/index.js because of ./src/components/Header/index.tsx */
 
 /*!********************************************************!*\
   !*** ./node_modules/react/cjs/react.production.min.js ***!
@@ -644,6 +476,14 @@ object-assign
  * LICENSE file in the root directory of this source tree.
  */
 
+/*!***********************************************************!*\
+  !*** ./node_modules/@uifabric/utilities/lib/warn/warn.js ***!
+  \***********************************************************/
+
+/*! exports provided: warn, setWarningCallback */
+
+/*! exports used: warn */
+
 /*!************************************************!*\
   !*** ./node_modules/timers-browserify/main.js ***!
   \************************************************/
@@ -683,21 +523,15 @@ object-assign
  * LICENSE file in the root directory of this source tree.
  */
 
-/*!*******************************************************************!*\
-  !*** ./node_modules/@uifabric/merge-styles/lib/mergeStyleSets.js ***!
-  \*******************************************************************/
+/*!*********************************************************!*\
+  !*** ./node_modules/@uifabric/utilities/lib/memoize.js ***!
+  \*********************************************************/
 
-/*! exports provided: mergeStyleSets, mergeCssSets */
+/*! exports provided: setMemoizeWeakMap, resetMemoizations, memoize, memoizeFunction */
 
-/*! exports used: mergeCssSets, mergeStyleSets */
+/*! exports used: memoizeFunction */
 
-/*! ./concatStyleSets */
-
-/*! ./extractStyleParts */
-
-/*! ./StyleOptionsState */
-
-/*! ./styleToClassName */
+/*! @uifabric/merge-styles */
 
 /*!*****************************************************************************!*\
   !*** ./node_modules/@uifabric/merge-styles/lib/concatStyleSetsWithProps.js ***!
@@ -707,6 +541,22 @@ object-assign
 
 /*! exports used: concatStyleSetsWithProps */
 
+/*! ./concatStyleSets */
+
+/*!*******************************************************************!*\
+  !*** ./node_modules/@uifabric/merge-styles/lib/mergeStyleSets.js ***!
+  \*******************************************************************/
+
+/*! exports provided: mergeStyleSets, mergeCssSets */
+
+/*! exports used: mergeCssSets, mergeStyleSets */
+
+/*! ./extractStyleParts */
+
+/*! ./StyleOptionsState */
+
+/*! ./styleToClassName */
+
 /*!****************************************************************!*\
   !*** ./node_modules/@uifabric/merge-styles/lib/mergeStyles.js ***!
   \****************************************************************/
@@ -714,6 +564,40 @@ object-assign
 /*! exports provided: mergeStyles, mergeCss */
 
 /*! exports used: mergeStyles */
+
+/*!*************************************************************!*\
+  !*** ./node_modules/@uifabric/merge-styles/lib/fontFace.js ***!
+  \*************************************************************/
+
+/*! exports provided: fontFace */
+
+/*! exports used: fontFace */
+
+/*!**************************************************************!*\
+  !*** ./node_modules/@uifabric/merge-styles/lib/keyframes.js ***!
+  \**************************************************************/
+
+/*! exports provided: keyframes */
+
+/*! exports used: keyframes */
+
+/*!**********************************************************************!*\
+  !*** ./node_modules/@uifabric/utilities/lib/initializeFocusRects.js ***!
+  \**********************************************************************/
+
+/*! exports provided: IsFocusVisibleClassName, initializeFocusRects */
+
+/*! exports used: IsFocusVisibleClassName */
+
+/*! ./keyboard */
+
+/*!*******************************************************!*\
+  !*** ./node_modules/@uifabric/utilities/lib/merge.js ***!
+  \*******************************************************/
+
+/*! exports provided: merge */
+
+/*! exports used: merge */
 
 /*!******************************************************************!*\
   !*** ./node_modules/@uifabric/foundation/lib/createComponent.js ***!
@@ -724,14 +608,6 @@ object-assign
 /*! exports used: createComponent */
 
 /*! ./slots */
-
-/*!************************************************************!*\
-  !*** ./node_modules/@uifabric/utilities/lib/properties.js ***!
-  \************************************************************/
-
-/*! exports provided: baseElementEvents, baseElementProperties, htmlElementProperties, labelProperties, audioProperties, videoProperties, olProperties, liProperties, anchorProperties, buttonProperties, inputProperties, textAreaProperties, selectProperties, optionProperties, tableProperties, trProperties, thProperties, tdProperties, colGroupProperties, colProperties, formProperties, iframeProperties, imgProperties, imageProperties, divProperties, getNativeProps */
-
-/*! exports used: anchorProperties, buttonProperties, divProperties, getNativeProps, htmlElementProperties, imageProperties */
 
 /*!********************************************************!*\
   !*** ./node_modules/@uifabric/utilities/lib/styled.js ***!
@@ -745,89 +621,91 @@ object-assign
 
 /*! ./customizations/CustomizerContext */
 
-/*!********************************************************************!*\
-  !*** ./node_modules/@uifabric/utilities/lib/classNamesFunction.js ***!
-  \********************************************************************/
+/*!******************************************************************************************************!*\
+  !*** ./node_modules/office-ui-fabric-react/node_modules/@uifabric/styling/lib/index.js + 28 modules ***!
+  \******************************************************************************************************/
 
-/*! exports provided: classNamesFunction */
+/*! exports used: AnimationClassNames, getGlobalClassNames, loadTheme, mergeStyleSets */
 
-/*! exports used: classNamesFunction */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/merge-styles/lib/Stylesheet.js because of ./src/App.tsx */
 
-/*! ./rtl */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/merge-styles/lib/fontFace.js because of ./src/App.tsx */
 
-/*!********************************************************!*\
-  !*** ./node_modules/@uifabric/utilities/lib/dom/on.js ***!
-  \********************************************************/
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/merge-styles/lib/keyframes.js because of ./src/App.tsx */
 
-/*! exports provided: on */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/merge-styles/lib/mergeStyleSets.js because of ./src/App.tsx */
 
-/*! exports used: on */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/merge-styles/lib/mergeStyles.js because of ./src/App.tsx */
 
-/*!*****************************************************************************!*\
-  !*** ./node_modules/@uifabric/utilities/lib/customizations/customizable.js ***!
-  \*****************************************************************************/
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/initializeFocusRects.js because of ./src/App.tsx */
 
-/*! exports provided: customizable */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/language.js because of ./src/App.tsx */
 
-/*! exports used: customizable */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/memoize.js because of ./src/App.tsx */
 
-/*! ./Customizations */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/merge.js because of ./src/App.tsx */
 
-/*! ../hoistStatics */
-
-/*! ./CustomizerContext */
-
-/*!*************************************************************************************!*\
-  !*** ./node_modules/@uifabric/react-cards/lib/components/Card/Card.js + 13 modules ***!
-  \*************************************************************************************/
-
-/*! exports provided: Card, default */
-
-/*! exports used: Card */
-
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/foundation/lib/createComponent.js because of ./src/views/Home/index.tsx */
-
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/foundation/lib/slots.js because of ./src/views/Home/index.tsx */
-
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/properties.js because of ./src/views/Home/index.tsx */
-
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/warn/warnDeprecations.js because of ./src/views/Home/index.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/tslib/tslib.es6.js because of ./src/App.tsx */
 
 /*!***************************************************************************************!*\
-  !*** ./node_modules/office-ui-fabric-react/lib/components/Stack/Stack.js + 4 modules ***!
+  !*** ./node_modules/office-ui-fabric-react/lib/components/Stack/Stack.js + 5 modules ***!
   \***************************************************************************************/
 
 /*! exports provided: Stack, default */
 
 /*! exports used: Stack */
 
-/*!**************************************************************************************************************!*\
-  !*** ./node_modules/office-ui-fabric-react/lib/components/Button/PrimaryButton/PrimaryButton.js + 4 modules ***!
-  \**************************************************************************************************************/
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/foundation/lib/createComponent.js because of ./src/components/Header/index.tsx */
 
-/*! exports provided: PrimaryButton */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/foundation/lib/slots.js because of ./src/components/Header/index.tsx */
 
-/*! exports used: PrimaryButton */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/properties.js because of ./src/views/Home/index.tsx */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/BaseComponent.js because of ./src/components/ArticleCard/index.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/node_modules/@uifabric/styling/lib/index.js because of ./src/index.tsx */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/customizations/customizable.js because of ./src/components/ArticleCard/index.tsx */
+/*!*****************************************************************************************!*\
+  !*** ./node_modules/office-ui-fabric-react/lib/components/Fabric/Fabric.js + 5 modules ***!
+  \*****************************************************************************************/
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/initializeFocusRects.js because of ./src/components/ArticleCard/index.tsx */
+/*! exports provided: Fabric */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/lib/components/Button/BaseButton.js because of ./src/components/ArticleCard/index.tsx */
+/*! exports used: Fabric */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/lib/components/Button/BaseButton.styles.js because of ./src/components/ArticleCard/index.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/classNamesFunction.js because of ./src/components/FootBar/index.tsx */
 
-/*!***************************************************************************!*\
-  !*** ./node_modules/@uifabric/utilities/lib/BaseComponent.js + 3 modules ***!
-  \***************************************************************************/
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/customizations/CustomizerContext.js because of ./src/components/FootBar/index.tsx */
 
-/*! exports provided: BaseComponent, nullRender */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/customizations/mergeSettings.js because of ./src/index.tsx */
 
-/*! exports used: BaseComponent, nullRender */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/dom/getDocument.js because of ./src/index.tsx */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/initializeFocusRects.js because of ./src/App.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/keyboard.js because of ./src/index.tsx */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/properties.js because of ./src/components/Header/index.tsx */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/styled.js because of ./src/components/FootBar/index.tsx */
+
+/*!***************************************************************************************!*\
+  !*** ./node_modules/office-ui-fabric-react/lib/components/Image/Image.js + 3 modules ***!
+  \***************************************************************************************/
+
+/*! exports provided: Image */
+
+/*! exports used: Image */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/classNamesFunction.js because of ./src/views/Home/index.tsx */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/dom/getWindow.js because of ./src/views/Home/index.tsx */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/styled.js because of ./src/views/Home/index.tsx */
+
+/*!************************************************************************!*\
+  !*** ./node_modules/@uifabric/utilities/lib/properties.js + 2 modules ***!
+  \************************************************************************/
+
+/*! exports provided: baseElementEvents, baseElementProperties, htmlElementProperties, labelProperties, audioProperties, videoProperties, olProperties, liProperties, anchorProperties, buttonProperties, inputProperties, textAreaProperties, selectProperties, optionProperties, tableProperties, trProperties, thProperties, tdProperties, colGroupProperties, colProperties, formProperties, iframeProperties, imgProperties, imageProperties, divProperties, getNativeProps */
+
+/*! exports used: divProperties, getNativeProps, htmlElementProperties, imageProperties */
 
 /*!*************************************************************************************!*\
   !*** ./node_modules/office-ui-fabric-react/lib/components/Text/Text.js + 2 modules ***!
@@ -837,34 +715,26 @@ object-assign
 
 /*! exports used: Text */
 
-/*!*****************************************************************************************!*\
-  !*** ./node_modules/office-ui-fabric-react/lib/components/Fabric/Fabric.js + 2 modules ***!
-  \*****************************************************************************************/
+/*!********************************************************************************!*\
+  !*** ./node_modules/@uifabric/utilities/lib/classNamesFunction.js + 2 modules ***!
+  \********************************************************************************/
 
-/*! exports provided: Fabric */
+/*! exports provided: classNamesFunction */
 
-/*! exports used: Fabric */
+/*! exports used: classNamesFunction */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/keyboard.js because of ./src/views/Home/index.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/merge-styles/lib/StyleOptionsState.js because of ./src/index.tsx */
 
-/*!***********************************************************************************************!*\
-  !*** ./node_modules/office-ui-fabric-react/lib/components/Separator/Separator.js + 2 modules ***!
-  \***********************************************************************************************/
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/merge-styles/lib/mergeStyleSets.js because of ./src/index.tsx */
 
-/*! exports provided: Separator */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/KeyCodes.js because of ./src/index.tsx */
 
-/*! exports used: Separator */
+/*!**********************************************************************!*\
+  !*** ./node_modules/@uifabric/utilities/lib/language.js + 1 modules ***!
+  \**********************************************************************/
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/classNamesFunction.js because of ./src/views/Home/index.tsx */
+/*! exports provided: getLanguage, setLanguage */
 
-/*!************************************************************************************************************!*\
-  !*** ./node_modules/office-ui-fabric-react/lib/components/Button/ActionButton/ActionButton.js + 1 modules ***!
-  \************************************************************************************************************/
+/*! exports used: getLanguage */
 
-/*! exports provided: ActionButton */
-
-/*! exports used: ActionButton */
-
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/lib/components/Button/BaseButton.js because of ./src/views/Home/index.tsx */
-
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/lib/components/Button/BaseButton.styles.js because of ./src/views/Home/index.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/dom/getDocument.js because of ./src/views/Home/index.tsx */
