@@ -19,7 +19,7 @@
 /*! ModuleConcatenation bailout: Module is not an ECMAScript module */
 
 /*!***********************************!*\
-  !*** ./src/index.tsx + 4 modules ***!
+  !*** ./src/index.tsx + 7 modules ***!
   \***********************************/
 
 /*! no exports provided */
@@ -30,6 +30,8 @@
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/icons/lib/index.js */
 
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/react-cards/lib/components/Card/Card.js */
+
 /*! ModuleConcatenation bailout: Cannot concat with ./src/serviceWorker.ts (<- Module uses injected variables (process)) */
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/lib/components/Button/PrimaryButton/PrimaryButton.js */
@@ -37,6 +39,8 @@
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/lib/components/CommandBar/CommandBar.js */
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/lib/components/Fabric/Fabric.js */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/lib/components/Image/Image.js */
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/lib/components/Stack/Stack.js */
 

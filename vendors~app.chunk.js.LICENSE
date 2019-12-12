@@ -39,7 +39,7 @@ and limitations under the License.
 
 /*! exports provided: AnimationClassNames, FontClassNames, ColorClassNames, AnimationStyles, AnimationVariables, DefaultPalette, DefaultEffects, DefaultFontStyles, registerDefaultFontFaces, FontSizes, FontWeights, IconFontSizes, createFontStyles, hiddenContentStyle, PulsingBeaconAnimationStyles, getGlobalClassNames, ThemeSettingName, getTheme, loadTheme, createTheme, registerOnThemeChangeCallback, removeOnThemeChangeCallback, buildClassMap, getIcon, registerIcons, registerIconAlias, unregisterIcons, setIconOptions, getIconClassName, InjectionMode, Stylesheet, concatStyleSets, concatStyleSetsWithProps, fontFace, keyframes, mergeStyleSets, mergeStyles, getFocusStyle, focusClear, getFocusOutlineStyle, getThemedContext, HighContrastSelector, HighContrastSelectorWhite, HighContrastSelectorBlack, ScreenWidthMinSmall, ScreenWidthMinMedium, ScreenWidthMinLarge, ScreenWidthMinXLarge, ScreenWidthMinXXLarge, ScreenWidthMinXXXLarge, ScreenWidthMaxSmall, ScreenWidthMaxMedium, ScreenWidthMaxLarge, ScreenWidthMaxXLarge, ScreenWidthMaxXXLarge, ScreenWidthMinUhfMobile, getScreenSelector, normalize, noWrap, getFadedOverflowStyle, getPlaceholderStyles, ZIndexes */
 
-/*! exports used: concatStyleSets, mergeStyles, registerIconAlias, registerIcons */
+/*! exports used: HighContrastSelector, concatStyleSets, getGlobalClassNames, mergeStyles, registerIconAlias, registerIcons */
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@microsoft/load-themed-styles/lib/index.js (<- Module is not an ECMAScript module) */
 
@@ -74,6 +74,14 @@ and limitations under the License.
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/warn/warn.js because of ./src/components/Header/index.tsx */
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/tslib/tslib.es6.js because of ./src/components/Header/index.tsx */
+
+/*!*********************************************************************************!*\
+  !*** ./node_modules/office-ui-fabric-react/lib/components/Image/Image.types.js ***!
+  \*********************************************************************************/
+
+/*! exports provided: ImageFit, ImageCoverStyle, ImageLoadState */
+
+/*! exports used: ImageCoverStyle, ImageFit, ImageLoadState */
 
 /*!***************************************************************************!*\
   !*** ./node_modules/office-ui-fabric-react/lib/common/DirectionalHint.js ***!
@@ -416,7 +424,7 @@ and limitations under the License.
 /*! ../../../Utilities */
 
 /*!**********************************************************************************************!*\
-  !*** ./node_modules/office-ui-fabric-react/lib/components/Button/BaseButton.js + 36 modules ***!
+  !*** ./node_modules/office-ui-fabric-react/lib/components/Button/BaseButton.js + 32 modules ***!
   \**********************************************************************************************/
 
 /*! exports provided: BaseButton */
@@ -463,11 +471,25 @@ and limitations under the License.
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/lib/components/FocusZone/FocusZone.types.js because of ./src/components/Header/index.tsx */
 
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/lib/components/Image/Image.js because of ./src/components/IntroduceCard/index.tsx */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/lib/components/Image/Image.types.js because of ./src/components/IntroduceCard/index.tsx */
+
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/lib/utilities/keytips/KeytipConstants.js because of ./src/components/Header/index.tsx */
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/lib/utilities/keytips/KeytipManager.js because of ./src/components/Header/index.tsx */
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/node_modules/@uifabric/styling/lib/index.js because of ./src/components/Header/index.tsx */
+
+/*!***************************************************************************************!*\
+  !*** ./node_modules/office-ui-fabric-react/lib/components/Image/Image.js + 2 modules ***!
+  \***************************************************************************************/
+
+/*! exports provided: Image */
+
+/*! exports used: Image */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/lib/components/Image/Image.types.js because of ./src/components/Header/index.tsx */
 
 /*!*********************************************************!*\
   !*** ./node_modules/@uifabric/utilities/lib/memoize.js ***!
@@ -895,7 +917,7 @@ object-assign
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/memoize.js because of ./src/index.tsx */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/properties.js because of ./src/views/Home/index.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/properties.js because of ./src/components/IntroduceCard/index.tsx */
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/styled.js because of ./src/views/Home/index.tsx */
 
@@ -923,6 +945,22 @@ object-assign
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/lib/components/Fabric/Fabric.js because of ./src/views/Home/index.tsx */
 
+/*!*************************************************************************************!*\
+  !*** ./node_modules/@uifabric/react-cards/lib/components/Card/Card.js + 13 modules ***!
+  \*************************************************************************************/
+
+/*! exports provided: Card, default */
+
+/*! exports used: Card */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/foundation/lib/createComponent.js because of ./src/components/Header/index.tsx */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/foundation/lib/slots.js because of ./src/components/Header/index.tsx */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/styling/lib/index.js because of ./src/App.tsx */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/warn/warnDeprecations.js because of ./src/components/Header/index.tsx */
+
 /*!*****************************************************************************************!*\
   !*** ./node_modules/office-ui-fabric-react/lib/components/Fabric/Fabric.js + 4 modules ***!
   \*****************************************************************************************/
@@ -948,12 +986,6 @@ object-assign
 /*! exports provided: Stack, default */
 
 /*! exports used: Stack */
-
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/foundation/lib/createComponent.js because of ./src/components/Header/index.tsx */
-
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/foundation/lib/slots.js because of ./src/components/Header/index.tsx */
-
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/warn/warnDeprecations.js because of ./src/components/Header/index.tsx */
 
 /*!***************************************************************************!*\
   !*** ./node_modules/@uifabric/utilities/lib/BaseComponent.js + 3 modules ***!
