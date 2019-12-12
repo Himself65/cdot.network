@@ -38,6 +38,8 @@
 
 /*! ModuleConcatenation bailout: Cannot concat with ./src/serviceWorker.ts (<- Module uses injected variables (process)) */
 
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/lib/components/Button/PrimaryButton/PrimaryButton.js */
+
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/lib/components/Fabric/Fabric.js */
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/lib/components/Image/Image.js */
