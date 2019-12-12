@@ -19,18 +19,12 @@
 /*! ModuleConcatenation bailout: Module is not an ECMAScript module */
 
 /*!***********************************!*\
-  !*** ./src/index.tsx + 5 modules ***!
+  !*** ./src/index.tsx + 4 modules ***!
   \***********************************/
 
 /*! no exports provided */
 
 /*! all exports used */
-
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@fortawesome/free-brands-svg-icons/index.es.js */
-
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@fortawesome/free-solid-svg-icons/index.es.js */
-
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@fortawesome/react-fontawesome/index.es.js */
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@hot-loader/react-dom/index.js (<- Module is not an ECMAScript module) */
 
@@ -40,9 +34,9 @@
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/lib/components/Button/PrimaryButton/PrimaryButton.js */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/lib/components/Fabric/Fabric.js */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/lib/components/CommandBar/CommandBar.js */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/lib/components/Image/Image.js */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/lib/components/Fabric/Fabric.js */
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/lib/components/Stack/Stack.js */
 
