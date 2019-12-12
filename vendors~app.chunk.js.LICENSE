@@ -55,13 +55,13 @@ and limitations under the License.
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/set-version/lib/index.js because of ./node_modules/office-ui-fabric-react/lib/version.js */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/GlobalSettings.js because of ./src/components/FootBar/index.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/GlobalSettings.js because of ./src/views/Home/index.tsx */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/customizations/Customizations.js because of ./src/components/FootBar/index.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/customizations/Customizations.js because of ./src/views/Home/index.tsx */
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/customizations/mergeSettings.js because of ./src/views/Home/index.tsx */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/dom/getWindow.js because of ./src/components/FootBar/index.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/dom/getWindow.js because of ./src/views/Home/index.tsx */
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/initializeFocusRects.js because of ./src/index.tsx */
 
@@ -389,7 +389,7 @@ object-assign
   !*** ./node_modules/react-router-dom/esm/react-router-dom.js ***!
   \***************************************************************/
 
-/*! exports provided: MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, __RouterContext, generatePath, matchPath, useHistory, useLocation, useParams, useRouteMatch, withRouter, BrowserRouter, HashRouter, Link, NavLink */
+/*! exports provided: BrowserRouter, HashRouter, Link, NavLink, MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, __RouterContext, generatePath, matchPath, useHistory, useLocation, useParams, useRouteMatch, withRouter */
 
 /*! exports used: BrowserRouter */
 
@@ -625,7 +625,7 @@ object-assign
   !*** ./node_modules/office-ui-fabric-react/node_modules/@uifabric/styling/lib/index.js + 28 modules ***!
   \******************************************************************************************************/
 
-/*! exports used: AnimationClassNames, getGlobalClassNames, loadTheme, mergeStyleSets */
+/*! exports used: AnimationClassNames, getGlobalClassNames, loadTheme, mergeStyleSets, mergeStyles */
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/merge-styles/lib/Stylesheet.js because of ./src/App.tsx */
 
@@ -673,11 +673,15 @@ object-assign
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/classNamesFunction.js because of ./src/components/FootBar/index.tsx */
 
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/customizations/Customizations.js because of ./src/components/FootBar/index.tsx */
+
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/customizations/CustomizerContext.js because of ./src/components/FootBar/index.tsx */
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/customizations/mergeSettings.js because of ./src/index.tsx */
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/dom/getDocument.js because of ./src/index.tsx */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/dom/getWindow.js because of ./src/components/FootBar/index.tsx */
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/keyboard.js because of ./src/index.tsx */
 
@@ -694,8 +698,6 @@ object-assign
 /*! exports used: Image */
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/classNamesFunction.js because of ./src/views/Home/index.tsx */
-
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/dom/getWindow.js because of ./src/views/Home/index.tsx */
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/styled.js because of ./src/views/Home/index.tsx */
 
