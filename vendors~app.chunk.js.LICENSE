@@ -61,9 +61,9 @@ and limitations under the License.
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/customizations/mergeSettings.js because of ./src/views/Home/index.tsx */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/dom/getWindow.js because of ./src/components/Header/index.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/dom/getWindow.js because of ./src/views/Home/IntroductionArea.tsx */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/initializeFocusRects.js because of ./src/components/Header/index.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/initializeFocusRects.js because of ./src/views/Home/IntroductionArea.tsx */
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/language.js because of ./src/components/Header/index.tsx */
 
@@ -71,7 +71,7 @@ and limitations under the License.
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/merge.js because of ./src/components/Header/index.tsx */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/warn/warn.js because of ./src/components/Header/index.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/warn/warn.js because of ./src/views/Home/IntroductionArea.tsx */
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/tslib/tslib.es6.js because of ./src/components/Header/index.tsx */
 
@@ -433,9 +433,9 @@ and limitations under the License.
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@hot-loader/react-dom/index.js (<- Module is not an ECMAScript module) */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/BaseComponent.js because of ./src/components/Header/index.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/BaseComponent.js because of ./src/views/Home/IntroductionArea.tsx */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/KeyCodes.js because of ./src/components/Header/index.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/KeyCodes.js because of ./src/views/Home/IntroductionArea.tsx */
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/array.js because of ./src/components/Header/index.tsx */
 
@@ -449,11 +449,11 @@ and limitations under the License.
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/focus.js because of ./src/components/Header/index.tsx */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/getId.js because of ./src/components/Header/index.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/getId.js because of ./src/views/Home/IntroductionArea.tsx */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/hoistStatics.js because of ./src/components/Header/index.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/hoistStatics.js because of ./src/views/Home/IntroductionArea.tsx */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/object.js because of ./src/components/Header/index.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/object.js because of ./src/views/Home/IntroductionArea.tsx */
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/properties.js because of ./src/components/Header/index.tsx */
 
@@ -489,7 +489,7 @@ and limitations under the License.
 
 /*! exports used: Image */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/lib/components/Image/Image.types.js because of ./src/components/Header/index.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/lib/components/Image/Image.types.js because of ./src/views/Home/IntroductionArea.tsx */
 
 /*!*********************************************************!*\
   !*** ./node_modules/@uifabric/utilities/lib/memoize.js ***!
@@ -669,7 +669,7 @@ object-assign
 
 /*! exports used: initializeIcons */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/styling/lib/index.js because of ./src/components/Header/index.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/styling/lib/index.js because of ./src/views/Home/IntroductionArea.tsx */
 
 /*!*****************************************************************!*\
   !*** ./node_modules/@uifabric/utilities/lib/rtl.js + 1 modules ***!
@@ -907,13 +907,19 @@ object-assign
 
 /*! exports used: CommandBar */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/Async.js because of ./src/components/Header/index.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/Async.js because of ./src/views/Home/IntroductionArea.tsx */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/customizations/customizable.js because of ./src/components/Header/index.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/css.js because of ./src/views/Home/IntroductionArea.tsx */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/dom/elementContains.js because of ./src/components/Header/index.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/customizations/customizable.js because of ./src/views/Home/IntroductionArea.tsx */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/initializeComponentRef.js because of ./src/components/Header/index.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/dom/elementContains.js because of ./src/views/Home/IntroductionArea.tsx */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/dom/portalContainsElement.js because of ./src/views/Home/IntroductionArea.tsx */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/focus.js because of ./src/views/Home/IntroductionArea.tsx */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/initializeComponentRef.js because of ./src/views/Home/IntroductionArea.tsx */
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/memoize.js because of ./src/index.tsx */
 
@@ -921,11 +927,23 @@ object-assign
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/styled.js because of ./src/views/Home/index.tsx */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/lib/components/Button/BaseButton.js because of ./src/components/Header/index.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/lib/common/DirectionalHint.js because of ./src/views/Home/IntroductionArea.tsx */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/lib/components/Button/BaseButton.styles.js because of ./src/components/Header/index.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/lib/components/Button/BaseButton.classNames.js because of ./src/views/Home/IntroductionArea.tsx */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/lib/components/Button/SplitButton/SplitButton.styles.js because of ./src/components/Header/index.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/lib/components/Button/BaseButton.js because of ./src/views/Home/IntroductionArea.tsx */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/lib/components/Button/BaseButton.styles.js because of ./src/views/Home/IntroductionArea.tsx */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/lib/components/Button/SplitButton/SplitButton.styles.js because of ./src/views/Home/IntroductionArea.tsx */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/lib/components/Callout/Callout.js because of ./src/views/Home/IntroductionArea.tsx */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/lib/components/FocusZone/FocusZone.js because of ./src/views/Home/IntroductionArea.tsx */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/lib/components/FocusZone/FocusZone.types.js because of ./src/views/Home/IntroductionArea.tsx */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/lib/utilities/keytips/KeytipManager.js because of ./src/views/Home/IntroductionArea.tsx */
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/node_modules/@uifabric/styling/lib/index.js because of ./src/index.tsx */
 
@@ -938,6 +956,8 @@ object-assign
 /*! exports provided: Callout */
 
 /*! exports used: Callout */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/dom/elementContains.js because of ./src/components/Header/index.tsx */
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/dom/on.js because of ./src/views/Home/index.tsx */
 
@@ -953,13 +973,13 @@ object-assign
 
 /*! exports used: Card */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/foundation/lib/createComponent.js because of ./src/components/Header/index.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/foundation/lib/createComponent.js because of ./src/views/Home/IntroductionArea.tsx */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/foundation/lib/slots.js because of ./src/components/Header/index.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/foundation/lib/slots.js because of ./src/views/Home/IntroductionArea.tsx */
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/styling/lib/index.js because of ./src/App.tsx */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/warn/warnDeprecations.js because of ./src/components/Header/index.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/warn/warnDeprecations.js because of ./src/views/Home/IntroductionArea.tsx */
 
 /*!*****************************************************************************************!*\
   !*** ./node_modules/office-ui-fabric-react/lib/components/Fabric/Fabric.js + 4 modules ***!
@@ -977,7 +997,7 @@ object-assign
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/dom/on.js because of ./src/components/Header/index.tsx */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/keyboard.js because of ./src/components/Header/index.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/keyboard.js because of ./src/views/Home/IntroductionArea.tsx */
 
 /*!***************************************************************************************!*\
   !*** ./node_modules/office-ui-fabric-react/lib/components/Stack/Stack.js + 4 modules ***!
@@ -995,7 +1015,13 @@ object-assign
 
 /*! exports used: BaseComponent, nullRender */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/EventGroup.js because of ./src/components/Header/index.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/Async.js because of ./src/components/Header/index.tsx */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/EventGroup.js because of ./src/views/Home/IntroductionArea.tsx */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/dom/getWindow.js because of ./src/components/Header/index.tsx */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/initializeFocusRects.js because of ./src/components/Header/index.tsx */
 
 /*!**************************************************************************************************************!*\
   !*** ./node_modules/office-ui-fabric-react/lib/components/Button/PrimaryButton/PrimaryButton.js + 3 modules ***!
@@ -1004,6 +1030,16 @@ object-assign
 /*! exports provided: PrimaryButton */
 
 /*! exports used: PrimaryButton */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/BaseComponent.js because of ./src/components/Header/index.tsx */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/customizations/customizable.js because of ./src/components/Header/index.tsx */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/lib/components/Button/BaseButton.js because of ./src/components/Header/index.tsx */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/lib/components/Button/BaseButton.styles.js because of ./src/components/Header/index.tsx */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/lib/components/Button/SplitButton/SplitButton.styles.js because of ./src/components/Header/index.tsx */
 
 /*!************************************************************************************!*\
   !*** ./node_modules/@uifabric/utilities/lib/initializeComponentRef.js + 2 modules ***!
@@ -1038,6 +1074,8 @@ object-assign
 /*! exports used: FocusZone */
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/dom/getParent.js because of ./src/components/Header/index.tsx */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/initializeComponentRef.js because of ./src/components/Header/index.tsx */
 
 /*!*******************************************************************!*\
   !*** ./node_modules/@uifabric/utilities/lib/focus.js + 1 modules ***!
