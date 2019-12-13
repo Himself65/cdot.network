@@ -6,6 +6,8 @@
   "_redirects": "/cdot.network/_redirects",
   "app.chunk.js.LICENSE": "/cdot.network/app.chunk.js.LICENSE",
   "assets/README.md": "/cdot.network/assets/README.md",
+  "assets/images/background/bg2.png": "/cdot.network/assets/images/background/bg2.png",
+  "assets/images/background/bg2@2x.png": "/cdot.network/assets/images/background/bg2@2x.png",
   "assets/images/banner_img_bg.png": "/cdot.network/assets/images/banner_img_bg.png",
   "assets/images/banner_img_bg@2x.png": "/cdot.network/assets/images/banner_img_bg@2x.png",
   "assets/images/banner_img_bg_default.png": "/cdot.network/assets/images/banner_img_bg_default.png",
@@ -30,7 +32,7 @@
   "favicon.ico": "/cdot.network/favicon.ico",
   "index.html": "/cdot.network/index.html",
   "logo300.png": "/cdot.network/logo300.png",
-  "precache-manifest.b795c60dc23c071cfd297ae9b33893a4.js": "/cdot.network/precache-manifest.b795c60dc23c071cfd297ae9b33893a4.js",
+  "precache-manifest.8990e92a2c2cb1683b05098dbaa26ab0.js": "/cdot.network/precache-manifest.8990e92a2c2cb1683b05098dbaa26ab0.js",
   "robots.txt": "/cdot.network/robots.txt",
   "service-worker.js": "/cdot.network/service-worker.js",
   "vendors~app.chunk.js.LICENSE": "/cdot.network/vendors~app.chunk.js.LICENSE"
