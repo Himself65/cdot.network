@@ -471,9 +471,9 @@ and limitations under the License.
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/lib/components/FocusZone/FocusZone.types.js because of ./src/components/Header/index.tsx */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/lib/components/Image/Image.js because of ./src/components/IntroduceCard/index.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/lib/components/Image/Image.js because of ./src/views/Home/PartnersArea.tsx */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/lib/components/Image/Image.types.js because of ./src/components/IntroduceCard/index.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/lib/components/Image/Image.types.js because of ./src/views/Home/PartnersArea.tsx */
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/lib/utilities/keytips/KeytipConstants.js because of ./src/components/Header/index.tsx */
 
@@ -669,7 +669,23 @@ object-assign
 
 /*! exports used: initializeIcons */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/styling/lib/index.js because of ./src/components/Header/index.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/styling/lib/index.js because of ./src/views/Home/PartnersArea.tsx */
+
+/*!**************************************************************************************************************!*\
+  !*** ./node_modules/office-ui-fabric-react/lib/components/Button/DefaultButton/DefaultButton.js + 2 modules ***!
+  \**************************************************************************************************************/
+
+/*! exports provided: DefaultButton */
+
+/*! exports used: DefaultButton */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/customizations/customizable.js because of ./src/components/Header/index.tsx */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/lib/components/Button/BaseButton.js because of ./src/components/Header/index.tsx */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/lib/components/Button/BaseButton.styles.js because of ./src/components/Header/index.tsx */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/lib/components/Button/SplitButton/SplitButton.styles.js because of ./src/components/Header/index.tsx */
 
 /*!*****************************************************************!*\
   !*** ./node_modules/@uifabric/utilities/lib/rtl.js + 1 modules ***!
@@ -680,6 +696,22 @@ object-assign
 /*! exports used: getRTL */
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/merge-styles/lib/StyleOptionsState.js because of ./src/components/Header/index.tsx */
+
+/*!***************************************************************************!*\
+  !*** ./node_modules/@uifabric/utilities/lib/BaseComponent.js + 3 modules ***!
+  \***************************************************************************/
+
+/*! exports provided: BaseComponent, nullRender */
+
+/*! exports used: BaseComponent, nullRender */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/Async.js because of ./src/components/Header/index.tsx */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/EventGroup.js because of ./src/components/Header/index.tsx */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/warn/warn.js because of ./src/views/Home/PartnersArea.tsx */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/warn/warnDeprecations.js because of ./src/views/Home/PartnersArea.tsx */
 
 /*!********************************************************!*\
   !*** ./node_modules/react/cjs/react.production.min.js ***!
@@ -785,6 +817,20 @@ object-assign
 
 /*! exports used: concatStyleSetsWithProps */
 
+/*!*****************************************************************************!*\
+  !*** ./node_modules/@uifabric/utilities/lib/customizations/customizable.js ***!
+  \*****************************************************************************/
+
+/*! exports provided: customizable */
+
+/*! exports used: customizable */
+
+/*! ./Customizations */
+
+/*! ../hoistStatics */
+
+/*! ./CustomizerContext */
+
 /*!****************************************************************!*\
   !*** ./node_modules/@uifabric/merge-styles/lib/mergeStyles.js ***!
   \****************************************************************/
@@ -875,20 +921,6 @@ object-assign
 
 /*! ./setPortalAttribute */
 
-/*!*****************************************************************************!*\
-  !*** ./node_modules/@uifabric/utilities/lib/customizations/customizable.js ***!
-  \*****************************************************************************/
-
-/*! exports provided: customizable */
-
-/*! exports used: customizable */
-
-/*! ./Customizations */
-
-/*! ../hoistStatics */
-
-/*! ./CustomizerContext */
-
 /*!******************************************************************!*\
   !*** ./node_modules/@uifabric/foundation/lib/createComponent.js ***!
   \******************************************************************/
@@ -900,6 +932,16 @@ object-assign
 /*! ./slots */
 
 /*!**************************************************************************************************!*\
+  !*** ./node_modules/office-ui-fabric-react/lib/components/Button/PrimaryButton/PrimaryButton.js ***!
+  \**************************************************************************************************/
+
+/*! exports provided: PrimaryButton */
+
+/*! exports used: PrimaryButton */
+
+/*! ../DefaultButton/DefaultButton */
+
+/*!**************************************************************************************************!*\
   !*** ./node_modules/office-ui-fabric-react/lib/components/CommandBar/CommandBar.js + 19 modules ***!
   \**************************************************************************************************/
 
@@ -907,25 +949,15 @@ object-assign
 
 /*! exports used: CommandBar */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/Async.js because of ./src/components/Header/index.tsx */
-
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/customizations/customizable.js because of ./src/components/Header/index.tsx */
-
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/dom/elementContains.js because of ./src/components/Header/index.tsx */
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/initializeComponentRef.js because of ./src/components/Header/index.tsx */
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/memoize.js because of ./src/index.tsx */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/properties.js because of ./src/components/IntroduceCard/index.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/properties.js because of ./src/views/Home/PartnersArea.tsx */
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/styled.js because of ./src/views/Home/index.tsx */
-
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/lib/components/Button/BaseButton.js because of ./src/components/Header/index.tsx */
-
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/lib/components/Button/BaseButton.styles.js because of ./src/components/Header/index.tsx */
-
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/lib/components/Button/SplitButton/SplitButton.styles.js because of ./src/components/Header/index.tsx */
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/node_modules/@uifabric/styling/lib/index.js because of ./src/index.tsx */
 
@@ -953,9 +985,9 @@ object-assign
 
 /*! exports used: Card */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/foundation/lib/createComponent.js because of ./src/components/Header/index.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/foundation/lib/createComponent.js because of ./src/views/Home/PartnersArea.tsx */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/foundation/lib/slots.js because of ./src/components/Header/index.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/foundation/lib/slots.js because of ./src/views/Home/PartnersArea.tsx */
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/styling/lib/index.js because of ./src/App.tsx */
 
@@ -986,24 +1018,6 @@ object-assign
 /*! exports provided: Stack, default */
 
 /*! exports used: Stack */
-
-/*!***************************************************************************!*\
-  !*** ./node_modules/@uifabric/utilities/lib/BaseComponent.js + 3 modules ***!
-  \***************************************************************************/
-
-/*! exports provided: BaseComponent, nullRender */
-
-/*! exports used: BaseComponent, nullRender */
-
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/EventGroup.js because of ./src/components/Header/index.tsx */
-
-/*!**************************************************************************************************************!*\
-  !*** ./node_modules/office-ui-fabric-react/lib/components/Button/PrimaryButton/PrimaryButton.js + 3 modules ***!
-  \**************************************************************************************************************/
-
-/*! exports provided: PrimaryButton */
-
-/*! exports used: PrimaryButton */
 
 /*!************************************************************************************!*\
   !*** ./node_modules/@uifabric/utilities/lib/initializeComponentRef.js + 2 modules ***!

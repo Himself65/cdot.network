@@ -18,9 +18,17 @@
 
 /*! ModuleConcatenation bailout: Module is not an ECMAScript module */
 
+/*!*****************************************************!*\
+  !*** ./src/components/ParticipantCilcle/index.scss ***!
+  \*****************************************************/
+
 /*!***********************************!*\
-  !*** ./src/index.tsx + 7 modules ***!
+  !*** ./src/views/Home/index.scss ***!
   \***********************************/
+
+/*!************************************!*\
+  !*** ./src/index.tsx + 13 modules ***!
+  \************************************/
 
 /*! no exports provided */
 
@@ -33,6 +41,8 @@
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/react-cards/lib/components/Card/Card.js */
 
 /*! ModuleConcatenation bailout: Cannot concat with ./src/serviceWorker.ts (<- Module uses injected variables (process)) */
+
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/lib/components/Button/DefaultButton/DefaultButton.js */
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/office-ui-fabric-react/lib/components/Button/PrimaryButton/PrimaryButton.js */
 
