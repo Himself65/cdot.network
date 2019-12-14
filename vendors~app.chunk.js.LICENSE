@@ -713,7 +713,7 @@ object-assign
 
 /*! exports used: initializeIcons */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/styling/lib/index.js because of ./src/views/Home/PartnersArea.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/styling/lib/index.js because of ./src/views/Home/InnovationArea.tsx */
 
 /*!**************************************************************************************************************!*\
   !*** ./node_modules/office-ui-fabric-react/lib/components/Button/DefaultButton/DefaultButton.js + 2 modules ***!
@@ -757,9 +757,9 @@ object-assign
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/initializeFocusRects.js because of ./src/components/Header/index.tsx */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/warn/warn.js because of ./src/views/Home/PartnersArea.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/warn/warn.js because of ./src/views/Home/InnovationArea.tsx */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/warn/warnDeprecations.js because of ./src/views/Home/PartnersArea.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/warn/warnDeprecations.js because of ./src/views/Home/InnovationArea.tsx */
 
 /*!********************************************************!*\
   !*** ./node_modules/react/cjs/react.production.min.js ***!
@@ -1019,7 +1019,7 @@ object-assign
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/memoize.js because of ./src/index.tsx */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/properties.js because of ./src/views/Home/ParticipantsArea.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/properties.js because of ./src/views/Home/NewsArea.tsx */
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/utilities/lib/styled.js because of ./src/views/Home/index.tsx */
 
@@ -1069,9 +1069,9 @@ object-assign
 
 /*! exports used: Card */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/foundation/lib/createComponent.js because of ./src/views/Home/PartnersArea.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/foundation/lib/createComponent.js because of ./src/views/Home/InnovationArea.tsx */
 
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/foundation/lib/slots.js because of ./src/views/Home/PartnersArea.tsx */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/foundation/lib/slots.js because of ./src/views/Home/InnovationArea.tsx */
 
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/@uifabric/styling/lib/index.js because of ./src/App.tsx */
 
