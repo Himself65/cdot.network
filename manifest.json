@@ -12,6 +12,8 @@
   "assets/images/background/bg2@2x.png": "/cdot.network/assets/images/background/bg2@2x.png",
   "assets/images/background/bg3.png": "/cdot.network/assets/images/background/bg3.png",
   "assets/images/background/bg3@2x.png": "/cdot.network/assets/images/background/bg3@2x.png",
+  "assets/images/background/bg5.png": "/cdot.network/assets/images/background/bg5.png",
+  "assets/images/background/bg5@2x.png": "/cdot.network/assets/images/background/bg5@2x.png",
   "assets/images/banner_img_bg_default.png": "/cdot.network/assets/images/banner_img_bg_default.png",
   "assets/images/banner_img_logo_default.png": "/cdot.network/assets/images/banner_img_logo_default.png",
   "assets/images/contact.png": "/cdot.network/assets/images/contact.png",
@@ -42,7 +44,7 @@
   "favicon.ico": "/cdot.network/favicon.ico",
   "index.html": "/cdot.network/index.html",
   "logo300.png": "/cdot.network/logo300.png",
-  "precache-manifest.d3528eac5b7b319018ef3d3217d69fc7.js": "/cdot.network/precache-manifest.d3528eac5b7b319018ef3d3217d69fc7.js",
+  "precache-manifest.fd19048790e200bf9c74b0f5c9c232aa.js": "/cdot.network/precache-manifest.fd19048790e200bf9c74b0f5c9c232aa.js",
   "robots.txt": "/cdot.network/robots.txt",
   "service-worker.js": "/cdot.network/service-worker.js",
   "vendors~app.chunk.js.LICENSE": "/cdot.network/vendors~app.chunk.js.LICENSE"
